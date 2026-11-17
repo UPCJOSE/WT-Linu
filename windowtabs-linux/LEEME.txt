@@ -1,0 +1,29 @@
+WindowTabs Linux v0.3 - pestañas para agrupar ventanas en KDE Plasma 6
+
+Instalar:    ./install.sh
+Quitar:      ./uninstall.sh
+
+Cómo se usa
+- Icono en la bandeja > "Crear grupo..." para juntar varias ventanas.
+- Las pestañas aparecen SOBRE la barra de título de la ventana (como en
+  WindowTabs de Windows) sin mover ni achicar la ventana. En Configuración >
+  Apariencia también puedes ponerlas arriba o abajo de la ventana.
+  Clic = cambiar, clic medio o X = cerrar, clic derecho = menú,
+  arrastrar = reordenar, "+" = agregar otra ventana al grupo.
+- Tamaño a voluntad: arrastra el borde derecho de la última pestaña para
+  cambiar el ancho de todas (o Ctrl + rueda del ratón sobre las pestañas).
+  El agarre de puntos de la izquierda desliza toda la tira por la barra.
+  Lo que dejes queda guardado.
+- Si las pestañas tapan los botones de la ventana (o el icono), ajusta
+  "Margen izquierdo / derecho" en Configuración > Apariencia.
+- Configuración (icono de bandeja): agrupar apps solas, apariencia, atajos.
+
+Atajos por defecto (se cambian en Preferencias del sistema > Atajos > KWin):
+  Ctrl+Alt+Derecha / Izquierda   siguiente / anterior ventana del grupo
+  Meta+G            marcar ventana / unirla a la marcada
+  Meta+Shift+G      sacar la ventana del grupo
+  Meta+Ctrl+G       agrupar todas las ventanas de la app actual
+  Meta+Alt+G        activar/desactivar agrupar automático
+
+Si algo falla, abre una terminal y ejecuta: windowtabs-ui
+y copia lo que salga.

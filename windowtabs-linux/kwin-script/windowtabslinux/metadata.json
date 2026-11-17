@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Id": "windowtabslinux",
+        "Name": "WindowTabs Linux",
+        "Description": "Agrupa ventanas en pestañas (motor de WindowTabs Linux)",
+        "Icon": "window-duplicate",
+        "License": "MIT",
+        "Version": "0.3.1"
+    },
+    "KPackageStructure": "KWin/Script",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
